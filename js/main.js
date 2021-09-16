@@ -27,7 +27,7 @@ Ball.prototype.draw = function () {
     ctx.fillStyle = this.color;
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.fill();
-}
+};
 
 Ball.prototype.update = function () {
     if((this.x + this.size) >= width) {
@@ -48,7 +48,7 @@ Ball.prototype.update = function () {
 
     this.x += this.velX;
     this.y += this.velY;
-}
+};
 
 Ball.prototype.collisionDetect = function () {
     for(let j = 0; j < balls.length; j++) {
@@ -62,7 +62,7 @@ Ball.prototype.collisionDetect = function () {
             }
         }
     }
-}
+};
 
 let balls = [];
 
