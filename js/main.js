@@ -12,6 +12,7 @@ function random(min, max) {
   const num = Math.floor(Math.random() * (max - min + 1)) + min;
   return num;
 }
+
 function Ball(x, y, velX, velY, color, size) {
     this.x = x;
     this.y = y;
@@ -27,6 +28,7 @@ Ball.prototype.draw = function () {
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.fill();
 }
+
 Ball.prototype.update = function () {
     if((this.x + this.size) >= width) {
         this.velX = -(this.velX);
