@@ -75,8 +75,8 @@ while(balls.length < 25) {
     random(-7,7),
     'rgb(' + random(0,255) + ',' + random(0,255) + ',' + random(0,255) = ')',
     size
-    );
-    balls.push(ball);
+);
+balls.push(ball);
 }
 
 function loop() {
