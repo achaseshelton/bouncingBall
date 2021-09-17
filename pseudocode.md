@@ -32,3 +32,36 @@ function update.Balls() {
 function collision.Balls () {}
 
 function loop.Balls () {}
+
+# **Evil Ball**
+
+## Functionality
+
+*Create an evil ball that eats the other balls when it collides*
+
+### Objects
+
+- Evil Ball
+
+### Functions
+
+- Function defining the evil ball, size, color, x and y axis, x and y velocity.
+- Fucntion that updates the location of the ball.
+- Collision function that removes color balls when colliding with the evil ball.
+- Function that allows a user to control the evil ball.
+
+## Pseudocode
+
+function evilBall () {
+  - x axis
+  - y axis
+  - x velocity
+  - y velocity
+  - size
+  - color
+}
+
+function update.evilBall () {
+  - begin path
+}
+
